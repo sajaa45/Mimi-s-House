@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="mm.gif" type="image/gif" >
+    <link rel="stylesheet" type="text/css" href="lim.css">
+    <script src="jj.js"></script>
+    <title>Mimi's House</title>
+</head>
+<body>
+    <h1 id="home"> Welcome To Our Shop <br>Everything Your Pet Needs Is Here</h1>
+    <div class="logo">
+        <img src="mm.gif" width=120 height=90>
+    </div>
+    <br>
+    <section id="mo">
+        
+        <input type="text" name="search" id="search">
+        <button id="searchB" for="search" onclick="handleClic()" >Search</button>
+    </section>
+    <header>
+    <ul><span>
+        <li id="home"><a href="#home">Home</a></li>
+        <li id="offer"><a href="#offers">Offers</a></li>
+        <li id="pets"><a href="#pet">Pets</a></li>
+        <li id="help"><a href="#hel">Help</a></li>
+        </ul></span> </header>
+    <h3 id="offers">Our Offers</h3>
+    <div id="catalogue">
+        <img src="food.jpg" class="n" id="food">
+        <div id="left">
+        <button class="arrow" id="left" onclick="prev()">&#10094;</button></div>
+        <div id="right">
+        <button class="arrow" id="right" onclick="next()">  &#10095;</button></div>
+    </div>
+    <h3 id="pet">Who Is Your Pet</h3>
+    <div id="pps"  onmouseover="cha()" onmouseout="chi()">
+        <a href="cat.html" class="m">
+        <img src="cat.jpg" id="cat">
+        <h2>CAT</h2>
+        <p>Click Here To Shop Now</p></a>
+    </div>
+    <br>
+    <div id="ppps"  onmouseover="cham()" onmouseout="chim()">
+        <a href="rabbit.html" class="m">
+        <img src="rabit.jpg" id="mat" >
+        <h2>RABBIT</h2>
+        <p>Click Here To Shop Now</p></a>
+    </div>
+    <br>
+    <div id="pips" onmouseover="chag()" onmouseout="chig()">
+        <a href="dog.html" class="m">
+        <img src="doggo.jpg" id="dog" >
+        <h2>DOG</h2>
+        <p>Click Here To Shop Now</p></a>
+    </div>
+    <h3 id="hel">What Is The Problem</h3>
+    <textarea></textarea>
+    <button id="searchB" for="search" onclick="handleClick()" >Submit</button>
+     
+</body>
+</html>
